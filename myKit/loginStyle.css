@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 sept. 2016, 08:32:06
+    Author     : SADEKS_INFO
+*/
+
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+
+html { 
+  background: url(ressources/images/wallpaper_1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    background-color: rgba(0,0,0,0);
+    margin-top: 20px;
+    color: black;
+}
+
+ .logform{
+    position: relative;
+    margin: 10px;
+    float: left;
+    background-color: pink;
+}
+
+.cadre{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.jumbotron{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#menu li a{
+    color: white;
+}
+.tab-content div{
+    background-color: rgba(255, 255, 255, 0.5);
+}
